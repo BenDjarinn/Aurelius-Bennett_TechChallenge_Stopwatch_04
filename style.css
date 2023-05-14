@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+
+
+#display {
+    font-size: 10rem;
+    padding: 0.5rem;
+}
+
+.buttons {
+    margin: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.buttons button {
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 1.5rem;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:hover {
+    filter: brightness(90%);
+}
